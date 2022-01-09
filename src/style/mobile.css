@@ -1,0 +1,148 @@
+.form{
+  flex-direction: column;
+}
+
+.form-label{
+  padding: 0;
+  margin-right: 0;
+  margin-left: 10px;
+  margin-bottom: 0;
+  width: 350px;
+  text-align: left;
+  border: none;
+  background: transparent;
+}
+
+.header-navber_wrapper,
+.navbar > .container-fluid{
+  justify-content: end;
+}
+
+.header-navbar_list{
+  align-items: start;
+  padding-left: 20px;
+}
+
+.form-label + .form-control{
+  padding: 10px 0 10px 15px;
+  margin-bottom: 5px;
+}
+
+.partners{
+  justify-content: center;
+}
+
+.partners-image:not(:last-child){
+  margin-bottom: 150px;
+}
+
+.footer-body{
+  align-items: center;
+}
+
+.footer_image{
+  display: none;
+}
+
+.modal-text__desktop{
+  display: none;
+}
+
+.modal-text__mobile{
+  display: inline;
+}
+
+.nav-link::before{
+  left: -20px;
+}
+
+.preview-text{
+  background: none;
+}
+
+.decor-block{
+  display: none
+}
+
+.competition-procedure-section-steps--first,
+.competition-procedure-section-steps--second,
+.competition-procedure-section-steps--third{
+  left: 44%;
+  right: 0;
+}
+
+.competition-procedure-section-steps--third{
+  top: 300px;
+}
+
+.competition-procedure-section::after,
+.competition-procedure-section::before{
+  background: none;
+  display: none;
+}
+
+.address-without-map{
+  width: 100%;
+}
+
+.platforms-section::before{
+  display: none;
+  background: none;
+}
+
+.required-skill{
+  background: none;
+}
+
+.form > label{
+  width: 100%;
+}
+
+.skill-card-list--item span{
+  width: 100%
+}
+
+.platforms-section--describe-text{
+  width:70%;
+}
+
+.platforms-section--describe{
+  margin-left: 0
+}
+
+.platforms-section--describe-text_wrapper{
+  margin-top: 120px;
+  margin-left: -2%;
+  text-align: center;
+}
+
+.platforms-section--icons{
+  top: -26px;
+  left: 142px;
+}
+
+.platforms-section--icons__background{
+  margin-left: -15vw;
+}
+
+.preview-text--discribe{
+  width: 100%;
+  font-size: 1em;
+}
+
+.timer-info{
+  top: 109px;
+}
+
+.hello-section{
+  margin-bottom: 0;
+  height: 461px;
+}
+
+.timer-info > h2{
+  font-size: 1em;
+}
+
+.timer-info > span{
+  font-size: 1.8em;
+}
